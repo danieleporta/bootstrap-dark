@@ -45,7 +45,7 @@ body.bootstrap {
     @import 'node_modules/bootstrap/scss/media';
     @import 'node_modules/bootstrap/scss/list-group';
     @import 'node_modules/bootstrap/scss/close';
-    @import 'node_modules/bootstrap/scss/toasts';
+    //@import 'node_modules/bootstrap/scss/toasts';
     @import 'node_modules/bootstrap/scss/modal';
     @import 'node_modules/bootstrap/scss/tooltip';
     @import 'node_modules/bootstrap/scss/popover';
@@ -54,4 +54,17 @@ body.bootstrap {
     @import 'node_modules/bootstrap/scss/utilities';
 
     @import 'themed-utilities-light';
+
+    .btn-outline-danger {
+        background-color: $danger;
+    }
+    .btn-outline-dark {
+        color: $white;
+        background-color: #23272b;
+    }
+
+    .input-group-text {
+        background-color: $gray-600;
+    }
+
 }
